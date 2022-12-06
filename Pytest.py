@@ -1,9 +1,10 @@
-import Pytest
 from Calculator import Calculate
-def pytest():
+
+def pytestadd():
     assert Calculate.add(1, 3, 5)==8
+def pytestmultiply():
     assert Calculate.multiply(1, 3, 5) == 15
+def pytestdivide():
     assert Calculate.divide(1, 6, 2) == 3
-    assert Calculate.substract(1, 3, 5) == -2
-if __name__ == '__main__':
-    pytest()
+def pytestsubstract():
+    assert Calculate.substract(1, 3, 5) =
