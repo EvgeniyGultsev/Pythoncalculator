@@ -7,4 +7,4 @@ def pytestmultiply():
 def pytestdivide():
     assert Calculate.divide(1, 6, 2) == 3
 def pytestsubstract():
-    assert Calculate.substract(1, 3, 5) =
+    assert Calculate.substract(1, 3, 5) == -2
